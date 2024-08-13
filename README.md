@@ -1,6 +1,6 @@
 Este repositorio contiene una tabla de base de datos para el almacenamiento de datos ficticios de una serie de clientes de un banco. La información muestra sus nombres y su información bancaria cifrada.
 
-El código crea un engine de SQLAlchemy para conectarse a una base de datos, generando datos aleatorios utilizando la librería `faker`, guardándolos en un dataframe de pandas y cifrándo los datos confidenciales con `hashlib`. Por último estos son cargados en AWS Redshift.
+El código crea un engine de SQLAlchemy para conectarse a una base de datos, generando datos aleatorios utilizando la librería `faker`, guardándolos en un dataframe de pandas y cifrando los datos confidenciales con `hashlib`. Por último estos son cargados en AWS Redshift.
 
 ## Estructura del Proyecto
 
