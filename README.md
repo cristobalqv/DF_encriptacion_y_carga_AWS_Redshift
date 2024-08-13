@@ -1,3 +1,4 @@
+[https://portalinnova.cl/wp-content/uploads/2022/11/En-el-Dia-de-la-Ciberseguridad-%C2%BFSabe-como-cuidar-la-seguridad-de-sus-datos.jpeg](https://portalinnova.cl/wp-content/uploads/2022/11/En-el-Dia-de-la-Ciberseguridad-%C2%BFSabe-como-cuidar-la-seguridad-de-sus-datos.jpeg)
 Este repositorio contiene una tabla de base de datos para el almacenamiento de datos ficticios de una serie de clientes de un banco. La información muestra sus nombres y su información bancaria cifrada.
 
 El código crea un engine de SQLAlchemy para conectarse a una base de datos, generando datos aleatorios utilizando la librería `faker`, guardándolos en un dataframe de pandas y cifrando los datos confidenciales con `hashlib`. Por último estos son cargados en AWS Redshift.
